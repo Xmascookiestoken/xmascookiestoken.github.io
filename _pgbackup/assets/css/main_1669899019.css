@@ -810,6 +810,10 @@ body {
     .\-1u\28xlarge\29  {
         margin-left: 8.3333333333%;
     }
+
+    #fire {
+        width: 110%;
+    }
 }
 
 @media screen and (max-width: 1140px) {
@@ -1035,6 +1039,10 @@ body {
     .\-1u\28large\29  {
         margin-left: 8.3333333333%;
     }
+
+    #fire {
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 980px) {
@@ -1259,6 +1267,10 @@ body {
 
     .\-1u\28medium\29  {
         margin-left: 8.3333333333%;
+    }
+
+    .fire {
+        width: 90%;
     }
 }
 
@@ -2595,7 +2607,7 @@ ul.actions {
 
 ul.actions li {
     display: inline-block;
-    padding: 0 1em 0 0;
+    padding: 0 0em 0 0;
     vertical-align: middle;
 }
 
@@ -3170,7 +3182,7 @@ body.is-loading #header:after {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255);
     text-align: center;
 }
 
@@ -3179,7 +3191,7 @@ body.is-loading #header:after {
 }
 
 #footer a:hover {
-    color: #ffffff;
+    color: #016135;
 }
 
 #footer b,
@@ -3270,6 +3282,7 @@ body.is-loading #header:after {
     list-style: none;
     margin: 2em 0 0;
     padding: 0;
+    font-weight: bold;
 }
 
 #footer .copyright li {
@@ -3356,6 +3369,10 @@ body.is-loading #header:after {
         padding: 4em 0 4em 0 ;
         background-attachment: scroll;
     }
+
+    #fire {
+        width: 100%;
+    }
 }
 
 /* Medium */
@@ -3394,6 +3411,10 @@ body.is-loading #header:after {
     /* Two */
     #two {
         text-align: center;
+    }
+
+    #fire {
+        width: 100%;
     }
 }
 
@@ -3470,6 +3491,10 @@ body.is-loading #header:after {
     /* Footer */
     #footer {
         padding: 3em 1.5em 3em 1.5em ;
+    }
+
+    #fire {
+        width: 100%;
     }
 }
 
@@ -3549,6 +3574,10 @@ body.is-loading #header:after {
     #footer .copyright li:first-child {
         margin-top: 0;
     }
+
+    #fire {
+        width: 100%;
+    }
 }
 
 /* XXSmall */
@@ -3573,8 +3602,17 @@ body.is-loading #header:after {
     #footer {
         padding: 2em 1em 2em 1em ;
     }
+
+    #fire {
+        width: 100%;
+    }
 }
 
 .tokenomics {
     width: 73%;
+}
+
+.fa-brands,
+.fa-solid {
+    font-size: 1.3em;
 }
